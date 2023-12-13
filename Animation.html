@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifle</title>
+</head>
+<style>
+    .gun{
+        width: 300px;
+        height: 300px;
+        position: relative;
+    }
+    .gun:hover .Bullet{
+        transform: translate(575%,-50%);
+    }
+    .Bullet{
+        width: 100px;
+        height: 60px;
+        position: absolute;
+        top: 19%;
+        right: 27%;
+        transform: translate(79%,-50%);
+        transition: transform 0.1s ease-in-out;
+    }
+</style>
+<body>
+    <div class="gun"><img class="gnn" src="gun.html" alt="">
+    <div class="Bullet"><img class="Bullet" src="Bullet.jpg" alt=""></div>
+    </div>
+
+    
+</body>
+</html>
